@@ -6,5 +6,9 @@ First is the "light emitting" part, this includes both the optics as well as the
 Second is the "driver", which controls both the power supply circuit as well as any control circuitry.  
 These two parts make up the majority of the power using/wasting parts of a flashlight, and so optimizing efficiency for the system basically means optimizing each of their efficiencies.  
   
-Optimizing the Bright Part
-The basis of this design comes from the non-linear efficiency curve of LEDs. In short, LEDs are more efficient the lower current you drive them at. Since the light emitted is also a function of current, the less light an LED generates, the less power it uses to generate that light. So instead of having one LED generating a large amount of light, the load is split between multiple LEDs, meaning each of them individually generates a smaller amount of light. This results in the same amount of light in the end, but with less power wasted.
+Optimizing the Bright Part  
+The basis of this design comes from the non-linear efficiency curve of LEDs. In short, LEDs are more efficient the lower current you drive them at. Since the light emitted is also a function of current, the less light an LED generates, the less power it uses to generate that light. So instead of having one LED generating a large amount of light, the load is split between multiple LEDs, meaning each of them individually generates a smaller amount of light. This results in the same amount of light in the end, but with less power wasted.  
+This method does have its downsides:  
+1. Spread  
+    Since the light 
+3. 
