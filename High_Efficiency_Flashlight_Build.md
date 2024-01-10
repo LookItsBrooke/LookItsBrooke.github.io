@@ -12,3 +12,46 @@ This method does have its downsides:
 1. Spread  
     Since the light 
 3. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+So, probably too late in the building process, around when the circuit design was almost finished, I realized I should probably look into different LED to see if any other LEDs with high efficiency existed. It was possible that the original forum post was wrong or outdated, and the Luxeon V while highly efficient and a great emitter might have been beaten by some recent, unknown LED. And so after a bit of searching I found this blog post from Ledrise posted in 2020. Two things stood out to me immeadately. First, the Luxeon brand (which I assumed was referring to the Luxeon V) was not the most efficient LED available (though it still was 2nd place). This meant I'd probably have to recheck and change my design right as it was finished, which was a big error on my part, though the main circuit parts should still work for this other emitter, the __. -The second thing though was that the Luxeon brand peak efficienc-
